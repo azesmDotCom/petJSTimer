@@ -1,7 +1,26 @@
-const timerId = setTimeout(logger, 2000);
+const btn = document.querySelector('.btn');
+let timerId,
+    i = 0;
 
-clearInterval(timerId);
 
-function logger () {
-    console.log('text');
-}
+//btn.addEventListener('click', () => {
+//    //const timerId = setTimeout(logger, 2000);
+//    timerId = setInterval(logger, 500);
+//});
+
+
+
+////clearInterval(timerId);
+
+//function logger () {
+//    if (i === 3) {
+//        clearInterval(timerId);
+//    }
+//    console.log('text');
+//    i++;
+//}
+
+//let id = setTimeout(function log() {
+//    console.log('Hello');
+//    id = setTimeout(log, 500);
+//}, 500);
